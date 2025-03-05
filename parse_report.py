@@ -6,6 +6,8 @@ import pandas as pd
 import seaborn as sns
 from io import StringIO
 from glob import glob
+import os
+import sys
 
 def parse_report(report_text):
     """Parse the performance report text into a structured format."""
@@ -147,7 +149,8 @@ def generate_charts(comparison_df):
     for batch in comparison_df['batch_size'].unique():
         batch_df = comparison_df[comparison_df['batch_size'] == batch]
         radar_chart(batch_df, batch)
-def load_file(fn:str)->Tuple[str, str]:
+
+def load_file(fn: str) -> Tuple[str, str]:
     with open(fn, 'r') as f:
         first = f.readline()
         rest = f.read()
@@ -155,8 +158,18 @@ def load_file(fn:str)->Tuple[str, str]:
 
 def main():
     """Main function to process reports and generate visualizations."""
-    # Example usage:
-    db_reports = {name:report for name,report in (load_file(fn) for fn in glob("*.txt"))}
+    if len(sys.argv) != 2:
+        print("Usage: python parse_report.py <directory_path>")
+        sys.exit(1)
+    
+    directory_path = sys.argv[1]
+    
+    if not os.path.isdir(directory_path):
+        print(f"Error: {directory_path} is not a valid directory.")
+        sys.exit(1)
+    
+    # Load .txt files from the specified directory
+    db_reports = {name: report for name, report in (load_file(fn) for fn in glob(os.path.join(directory_path, "*.txt")))}
     
     # Parse and compare the data
     comparison_df = compare_databases(db_reports)
