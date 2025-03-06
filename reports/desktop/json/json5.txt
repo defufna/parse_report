@@ -1,0 +1,37 @@
+Redis JSON
+Affected object per transaction 1.
+Insert vehicles [1]: 369322.53545617993 T/s
+Update vehicles [1]: 667694.8910906826 T/s
+Read-update vehicles [1]: 324000.72371911537 T/s
+Insert rides [1]: 251648.6562125768 T/s
+Update rides [1]: 423495.4502452918 T/s
+Get vehicles [1]: 268056.9578599372 T/s
+Get ride vehicles [1]: 200302.34340313807 T/s
+Get vehicle rides [1]: 190691.144442953 T/s
+Delete rides [1]: 210790.9590118595 T/s
+Delete vehicles [1]: 306530.1970945704 T/s
+
+Affected object per transaction 2.
+Insert vehicles [2]: 184462.10778843856 T/s
+Update vehicles [2]: 329961.81743673666 T/s
+Read-update vehicles [2]: 168520.1542306488 T/s
+Insert rides [2]: 131329.048705418 T/s
+Update rides [2]: 204250.85243471185 T/s
+Get vehicles [2]: 164530.48302146513 T/s
+Get ride vehicles [2]: 99482.6822441935 T/s
+Get vehicle rides [2]: 107312.91081440062 T/s
+Delete rides [2]: 116748.90145478823 T/s
+Delete vehicles [2]: 201278.63905498572 T/s
+
+Affected object per transaction 4.
+Insert vehicles [4]: 97265.68005075594 T/s
+Update vehicles [4]: 168420.89437990976 T/s
+Read-update vehicles [4]: 80676.35476759486 T/s
+Insert rides [4]: 64495.241298897825 T/s
+Update rides [4]: 103475.4397479961 T/s
+Get vehicles [4]: 62410.03558724178 T/s
+Get ride vehicles [4]: 45954.53427083488 T/s
+Get vehicle rides [4]: 39956.63002169375 T/s
+Delete rides [4]: 54392.086439438004 T/s
+Delete vehicles [4]: 113707.18456735887 T/s
+

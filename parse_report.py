@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import re
 from typing import Tuple
 import matplotlib.pyplot as plt
