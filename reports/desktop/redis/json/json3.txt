@@ -1,4 +1,4 @@
-Redis JSON
+Redis JSON 3
 Affected object per transaction 1.
 Insert vehicles [1]: 364305.47671696934 T/s
 Update vehicles [1]: 657442.1913276744 T/s
