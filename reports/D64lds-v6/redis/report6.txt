@@ -1,0 +1,37 @@
+Redis 4x 64000 AZ Disk Cluster 48
+Affected object per transaction 1.
+Insert vehicles [1]: 3574246.146451641 T/s
+Update vehicles [1]: 5149926.245300258 T/s
+Read-update vehicles [1]: 2763536.581883641 T/s
+Insert rides [1]: 1994998.4414609778 T/s
+Update rides [1]: 4567317.692302405 T/s
+Get vehicles [1]: 4357044.51428357 T/s
+Get ride vehicles [1]: 2401290.820684854 T/s
+Get vehicle rides [1]: 2250246.0558799305 T/s
+Delete rides [1]: 2019559.9026713942 T/s
+Delete vehicles [1]: 1542126.1204858464 T/s
+
+Affected object per transaction 2.
+Insert vehicles [2]: 1934194.4939931855 T/s
+Update vehicles [2]: 2887372.4130667197 T/s
+Read-update vehicles [2]: 1389279.8692568422 T/s
+Insert rides [2]: 1408824.8147344065 T/s
+Update rides [2]: 2234602.4527326464 T/s
+Get vehicles [2]: 1858763.099876159 T/s
+Get ride vehicles [2]: 1271906.2119336154 T/s
+Get vehicle rides [2]: 1198478.8765049174 T/s
+Delete rides [2]: 1040742.6423537956 T/s
+Delete vehicles [2]: 801170.2158785689 T/s
+
+Affected object per transaction 4.
+Insert vehicles [4]: 1107086.0951895437 T/s
+Update vehicles [4]: 1439986.8549783938 T/s
+Read-update vehicles [4]: 692045.0142488406 T/s
+Insert rides [4]: 766440.1394750512 T/s
+Update rides [4]: 1224359.9614269913 T/s
+Get vehicles [4]: 1105040.2994320968 T/s
+Get ride vehicles [4]: 633156.7604628572 T/s
+Get vehicle rides [4]: 558433.1395315358 T/s
+Delete rides [4]: 536896.5112256552 T/s
+Delete vehicles [4]: 411288.5362492943 T/s
+

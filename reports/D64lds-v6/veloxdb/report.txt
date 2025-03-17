@@ -1,0 +1,37 @@
+VeloxDB 4x 64000 1c take 2 AZ Disk
+Affected object per transaction 1.
+Insert vehicles [1]: 3260092.6618448934 T/s
+Update vehicles [1]: 4891450.099046434 T/s
+Read-update vehicles [1]: 4763761.352456942 T/s
+Insert rides [1]: 3475627.4786858754 T/s
+Update rides [1]: 3774558.131867734 T/s
+Get vehicles [1]: 8080880.008400115 T/s
+Get ride vehicles [1]: 7778267.747784211 T/s
+Get vehicle rides [1]: 7410133.577234024 T/s
+Delete rides [1]: 3986672.419389973 T/s
+Delete vehicles [1]: 3696348.1081840647 T/s
+
+Affected object per transaction 2.
+Insert vehicles [2]: 1891908.197320564 T/s
+Update vehicles [2]: 3124881.9127599783 T/s
+Read-update vehicles [2]: 3298827.4694154533 T/s
+Insert rides [2]: 2674087.2629015516 T/s
+Update rides [2]: 2466143.585977086 T/s
+Get vehicles [2]: 7390008.688885652 T/s
+Get ride vehicles [2]: 6527454.739004578 T/s
+Get vehicle rides [2]: 5945876.598122038 T/s
+Delete rides [2]: 2329969.2234707107 T/s
+Delete vehicles [2]: 2208368.153042826 T/s
+
+Affected object per transaction 4.
+Insert vehicles [4]: 998483.9451121689 T/s
+Update vehicles [4]: 2050198.257008088 T/s
+Read-update vehicles [4]: 1987438.5361420112 T/s
+Insert rides [4]: 1465826.781538058 T/s
+Update rides [4]: 1310919.9562595782 T/s
+Get vehicles [4]: 5462222.3669217 T/s
+Get ride vehicles [4]: 4578606.097794077 T/s
+Get vehicle rides [4]: 4092268.6023495956 T/s
+Delete rides [4]: 1270878.2257692728 T/s
+Delete vehicles [4]: 1353282.0963575747 T/s
+
