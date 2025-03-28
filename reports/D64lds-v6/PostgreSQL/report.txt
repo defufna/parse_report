@@ -1,0 +1,37 @@
+PostgreSQL 1x 16384 4000 AZ Disk
+Affected object per transaction 1.
+Insert vehicles [1]: 120959.83561082889 T/s
+Update vehicles [1]: 125820.53438419523 T/s
+Read-update vehicles [1]: 95786.18481282382 T/s
+Insert rides [1]: 93377.42562648088 T/s
+Update rides [1]: 83113.76874204732 T/s
+Get vehicles [1]: 318913.95845633186 T/s
+Get ride vehicles [1]: 146655.43718492042 T/s
+Get vehicle rides [1]: 237574.7976785006 T/s
+Delete rides [1]: 143749.09869867176 T/s
+Delete vehicles [1]: 129049.55870618911 T/s
+
+Affected object per transaction 2.
+Insert vehicles [2]: 93912.24689315619 T/s
+Update vehicles [2]: 112777.96792929238 T/s
+Read-update vehicles [2]: 80432.4116578718 T/s
+Insert rides [2]: 68186.65289233539 T/s
+Update rides [2]: 59141.9652996063 T/s
+Get vehicles [2]: 305777.60633569607 T/s
+Get ride vehicles [2]: 151100.86818665307 T/s
+Get vehicle rides [2]: 218229.39701026896 T/s
+Delete rides [2]: 129621.81623419869 T/s
+Delete vehicles [2]: 103535.58466244274 T/s
+
+Affected object per transaction 4.
+Insert vehicles [4]: 64126.19698183323 T/s
+Update vehicles [4]: 86429.60366907752 T/s
+Read-update vehicles [4]: 72768.00269526748 T/s
+Insert rides [4]: 49098.52097036181 T/s
+Update rides [4]: 36220.23898115586 T/s
+Get vehicles [4]: 295562.41048416507 T/s
+Get ride vehicles [4]: 12970.950701775297 T/s
+Get vehicle rides [4]: 213370.35364534278 T/s
+Delete rides [4]: 98629.86150422307 T/s
+Delete vehicles [4]: 77473.86191988045 T/s
+
